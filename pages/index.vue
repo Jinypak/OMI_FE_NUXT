@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="flex max-w-5xl m-auto">
     <Main />
-    123
   </div>
 </template>
 
