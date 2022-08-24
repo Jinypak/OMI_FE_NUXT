@@ -1,17 +1,15 @@
 <template>
   <div class="flex max-w-5xl m-auto">
-    <Main />
+    <today-insta></today-insta>
   </div>
 </template>
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import Main from '../components/Main.vue'
+import TodayInsta from '../components/main/TodayInsta.vue'
 
 @Component({
-  components: {
-    Main,
-  },
+  components: { TodayInsta },
 })
 export default class index extends Vue {}
 </script>
